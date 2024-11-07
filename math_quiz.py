@@ -8,7 +8,7 @@ def gen_rand_number(min, max):
     return random.randint(int(min), int(max))
 
 # Generate Random Operator Function
-def gen_rand_operato():
+def gen_rand_operator():
     return random.choice(['+', '-', '*'])
 
 # Evaluate Expression Function
@@ -29,7 +29,7 @@ def math_quiz():
 
     # ask question and take input from the user based on total number of question
     for item in range(int(totalQuestion)):
-        num1 = gen_rand_number(1, 10); num2 = gen_rand_number(1, 5.5); operator = gen_rand_operato()
+        num1 = gen_rand_number(1, 10); num2 = gen_rand_number(1, 5.5); operator = gen_rand_operator()
 
         # check exp func to show the expression and get the correct answer to match the user answer
         problem, correctAnswer = check_expression(num1, num2, operator)
