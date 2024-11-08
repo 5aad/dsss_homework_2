@@ -1,6 +1,6 @@
 # dsss_homework_2
 
-math quiz game and unit test
+## math quiz game and unit test
 =====================
 
 ## Installation
